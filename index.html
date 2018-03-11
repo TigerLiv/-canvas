@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>俄罗斯方块</title>
+	<style type="text/css">
+		table{
+			background-color: #252525;
+		}
+		html{
+			height:100%;
+		}
+ 
+		table,tr,td{
+			border-collapse: collapse;
+			border:1px solid #424242;
+		}
+		td{
+			width:22px;
+			height:22px;
+		}
+		.b0{
+			background-image: -webkit-linear-gradient(top left , #da7a75 , #a93434);
+		}
+		.b1{
+			background-image: -webkit-linear-gradient(top left , #DCE775 , #388E3C);
+		}
+		.b2{
+			background-image: -webkit-linear-gradient(top left , #feff00 , #8a9115);
+		}
+		.b3{
+			background-image: -webkit-linear-gradient(top left , #00BCD4 , #00838F);
+		}
+		.b4{
+			background-image: -webkit-linear-gradient(top left , #cdd4f5 , #207da7);
+		}
+		.b5{
+			background-image: -webkit-linear-gradient(top left , #A1887F , #5D4037);
+		}
+		.b6{
+			background-image: -webkit-linear-gradient(top left , #efadfb , #9c43b4);
+		}
+		.b7{
+			background-image: -webkit-linear-gradient(top left , #efadfb , #9c43b4);
+		}
+		.bb{
+			background: #eee;
+		}
+		.b_shadow{
+			background-color: rgba(100,100,100,.4);
+		}
+		
+		 
+	</style>
+</head>
+<body>
+	<div id="app"></div>
+
+	<script type="text/javascript" src="js/Game.js"></script>
+	<script type="text/javascript" src="js/Block.js"></script>
+	<script type="text/javascript" src="js/Map.js"></script>
+	<script type="text/javascript">
+		var game = new Game();
+	</script>
+</body>
+</html>
